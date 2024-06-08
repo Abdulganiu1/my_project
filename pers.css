@@ -1,0 +1,216 @@
+/* font awesome link  */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+/*google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+
+:root{
+    --white:#fff;
+    --black:#171717;
+    --bg-color:#1c1c1e;
+    --light-white:#a59a9a;
+    --box-shadow:0 .5rem 1rem #000;
+    --border:.1rem solid rgba(525,255,255,.1);
+    --gradient:linear-gradient(65deg, blue, coral);
+}
+
+
+*{
+    font-family: 'montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none; border: none;
+}
+
+*::selection{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+html{
+    font-size: 90.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+    overflow: hidden;
+}
+
+
+
+body{
+    background: none;
+    padding-bottom: 8rem;
+}
+
+div{
+    overflow: hidden;
+}
+
+div{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 375;
+    height: 812;
+    overflow: hidden;
+    pointer-events: none;
+    transition: transform 0s linear -1ms, -webkit-transform 0s linear -1ms;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(new_image.jpg);
+    background-size: 2806.75px 812px;
+    visibility: visible;
+    transform: translate3d(0px, 45px, 0px);
+}
+
+.wrapper{
+    background: #ddd;
+    line-height: 20px;
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding: 5px;
+}
+
+ul .ul-cont{
+    list-style-type: none;
+}
+
+.header *{
+    color: #000;
+    font-size: 14px;
+}
+
+ul .ul-cont li{
+    display: inline;
+    float: right;
+}
+
+.header a{
+    padding: 5px;
+    float: right;
+    font-weight: 900;
+    color: #000;
+}
+
+.header i{
+    color: #f63;
+}
+
+.jarallex{
+    position: relative;
+}
+div .home-body-wrapper.header .jarallex{
+    background: none center top / auto no-repeat scroll;
+}
+
+div #jarallex-container-0{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    transition: transform 0s linear -1ms, -webkit-transform 0s linear -1ms;
+    visibility: hidden;
+    z-index: -100;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#jarallex-container-0{
+    clip: rect(0px, 375px, 600px, 0);
+}
+
+div .project-container{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.header-wrapper{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 0px;
+}
+
+.header2{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding: 5px;
+}
+
+a .logo-link .float-left{
+    float: left;
+}
+
+.header2 img{
+    max-height: 50px;
+}
+
+@media(max-width: 1050px) {
+    .header2 img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 1050px){
+     .button{
+        display: block;
+     }
+}
+
+@media(max-width: 1050px) {
+    .header2 ul{
+        float: none;
+        clear: both;
+        margin: 0px;
+    }
+}
+
+button{
+    overflow: visible;
+}
+
+button .collapse{
+    padding: 5px;
+    float: right;
+    background: #fff;
+    border: 1px solid #333;
+    width: 40px;
+    margin: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+button,select{
+    text-transform: none;
+}
+
+button,input,select,textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button .collapse span{
+    display: block;
+    clear: both;
+    padding: 2px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 30px;
+    background: #333;
+}
+
+ul{
+    display: block;
+}
